@@ -1,5 +1,4 @@
 import { useLang } from "@/contexts/LangContext";
-import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const { t } = useLang();
@@ -7,7 +6,7 @@ const Hero = () => {
   return (
     <section className="bg-secondary py-24 px-6">
       <div className="container mx-auto text-center max-w-3xl">
-        <img src={logo} alt="AutomatiQ LLC" className="h-16 mx-auto mb-8 rounded-lg" />
+        <p className="text-electric font-bold text-lg tracking-wide mb-4">AutomatiQ LLC</p>
         <h1 className="text-4xl md:text-5xl font-bold text-secondary-foreground mb-6 leading-tight">
           {t.hero.title1}<br />{t.hero.title2}
         </h1>
