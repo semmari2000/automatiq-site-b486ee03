@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="bg-secondary py-24 px-6">
       <div className="container mx-auto text-center max-w-3xl">
-        <p className="text-white font-bold text-2xl md:text-3xl tracking-wide mb-4 animate-fade-in">AutomatiQ LLC</p>
+        <p className="text-electric font-bold text-2xl md:text-3xl tracking-wide mb-4 animate-fade-in drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]" style={{ textShadow: '0 0 15px rgba(255,255,255,0.6), 0 0 30px rgba(255,255,255,0.4)' }}>AutomatiQ LLC</p>
         <h1 className="text-4xl md:text-5xl font-bold text-secondary-foreground mb-6 leading-tight">
           {t.hero.title1}<br />{t.hero.title2}
         </h1>
