@@ -22,11 +22,11 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-electric" />
-                <a href="mailto:contact@automatiq.com" className="text-foreground hover:text-electric">contact@automatiq.com</a>
+                <a href="mailto:admin@automatiqllc.cloud" className="text-foreground hover:text-electric">admin@automatiqllc.cloud</a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-electric" />
-                <span className="text-foreground">+213 000 000 000</span>
+                <span className="text-foreground">+1 (505) 209-7555</span>
               </div>
             </div>
           </div>
