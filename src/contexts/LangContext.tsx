@@ -4,12 +4,24 @@ type Lang = "en" | "ar" | "fr";
 
 const translations = {
   en: {
-    nav: { services: "Services", howItWorks: "How It Works", contact: "Contact" },
+    nav: { about: "About Us", services: "Services", howItWorks: "How It Works", contact: "Contact" },
     hero: {
       title1: "Automate Your WhatsApp.",
       title2: "Grow Your Business.",
       subtitle: "We help e-commerce businesses in Algeria and the MENA region automate customer communication on WhatsApp — so you can sell more, respond faster, and scale effortlessly.",
       cta: "Get Started",
+    },
+    about: {
+      title: "About Us",
+      intro: "AutomatiQ Cloud LLC is a WhatsApp automation company that helps businesses centralize conversations, automate repetitive customer interactions, and operate faster with a dedicated platform and managed implementation.",
+      items: [
+        { title: "What we are", description: "A specialized automation partner focused on WhatsApp-first customer operations, with tools and workflows designed for modern sales and support teams." },
+        { title: "What we provide", description: "We provide chatbot setup, order notifications, confirmation flows, support automation, and access to our platform so businesses can manage communication at scale." },
+        { title: "Who we target", description: "We serve e-commerce brands, online sellers, and growing businesses in Algeria and across the MENA region that want faster replies, better customer follow-up, and more efficient operations." },
+      ],
+      platformTitle: "Already ready to use the platform?",
+      platformDescription: "This website introduces our company and services. To access the actual AutomatiQ platform, open the app and continue from there.",
+      platformCta: "Open Platform",
     },
     services: {
       title: "Our Services",
@@ -72,12 +84,24 @@ const translations = {
     },
   },
   ar: {
-    nav: { services: "خدماتنا", howItWorks: "كيف يعمل", contact: "اتصل بنا" },
+    nav: { about: "من نحن", services: "خدماتنا", howItWorks: "كيف يعمل", contact: "اتصل بنا" },
     hero: {
       title1: "أتمت واتساب الخاص بك.",
       title2: "نمِّ أعمالك.",
       subtitle: "نساعد شركات التجارة الإلكترونية في الجزائر ومنطقة الشرق الأوسط وشمال أفريقيا على أتمتة التواصل مع العملاء عبر واتساب — لتبيع أكثر وتستجيب أسرع وتتوسع بسهولة.",
       cta: "ابدأ الآن",
+    },
+    about: {
+      title: "من نحن",
+      intro: "AutomatiQ Cloud LLC هي شركة متخصصة في أتمتة واتساب تساعد الشركات على تنظيم المحادثات، وأتمتة التفاعلات المتكررة مع العملاء، والعمل بكفاءة أعلى عبر منصة مخصصة وتنفيذ مُدار.",
+      items: [
+        { title: "ما هي الشركة", description: "نحن شريك متخصص في أتمتة العمليات المعتمدة على واتساب، مع أدوات وسير عمل مصمم لفرق المبيعات والدعم الحديثة." },
+        { title: "ماذا نقدم", description: "نوفر إعداد روبوتات المحادثة، وإشعارات الطلبات، وتدفقات تأكيد الطلب، وأتمتة الدعم، بالإضافة إلى الوصول إلى منصتنا لإدارة التواصل على نطاق واسع." },
+        { title: "من نستهدف", description: "نستهدف علامات التجارة الإلكترونية، والبائعين عبر الإنترنت، والشركات النامية في الجزائر ومنطقة الشرق الأوسط وشمال أفريقيا التي تريد ردوداً أسرع ومتابعة أفضل وكفاءة تشغيلية أعلى." },
+      ],
+      platformTitle: "جاهز للدخول إلى المنصة؟",
+      platformDescription: "هذا الموقع يعرّف بشركتنا وخدماتنا فقط. للوصول إلى منصة AutomatiQ الفعلية، افتح التطبيق وأكمل من هناك.",
+      platformCta: "فتح المنصة",
     },
     services: {
       title: "خدماتنا",
@@ -140,12 +164,24 @@ const translations = {
     },
   },
   fr: {
-    nav: { services: "Services", howItWorks: "Comment ça marche", contact: "Contact" },
+    nav: { about: "À propos", services: "Services", howItWorks: "Comment ça marche", contact: "Contact" },
     hero: {
       title1: "Automatisez votre WhatsApp.",
       title2: "Développez votre business.",
       subtitle: "Nous aidons les entreprises e-commerce en Algérie et dans la région MENA à automatiser la communication client sur WhatsApp — pour vendre plus, répondre plus vite et évoluer sans effort.",
       cta: "Commencer",
+    },
+    about: {
+      title: "À propos",
+      intro: "AutomatiQ Cloud LLC est une entreprise d'automatisation WhatsApp qui aide les sociétés à centraliser les conversations, automatiser les interactions clients répétitives et fonctionner plus vite grâce à une plateforme dédiée et un accompagnement opérationnel.",
+      items: [
+        { title: "Qui nous sommes", description: "Un partenaire spécialisé dans les opérations client orientées WhatsApp, avec des outils et des workflows pensés pour les équipes modernes de vente et de support." },
+        { title: "Ce que nous proposons", description: "Nous mettons en place des chatbots, des notifications de commande, des flux de confirmation, l'automatisation du support et l'accès à notre plateforme pour gérer la communication à grande échelle." },
+        { title: "À qui cela s'adresse", description: "Nous ciblons les marques e-commerce, les vendeurs en ligne et les entreprises en croissance en Algérie et dans la région MENA qui veulent répondre plus vite, mieux relancer leurs clients et gagner en efficacité." },
+      ],
+      platformTitle: "Prêt à accéder à la plateforme ?",
+      platformDescription: "Ce site présente notre société et nos services. Pour accéder à la véritable plateforme AutomatiQ, ouvrez l'application et continuez depuis l'application.",
+      platformCta: "Ouvrir la plateforme",
     },
     services: {
       title: "Nos Services",
