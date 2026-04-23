@@ -1,4 +1,4 @@
-import { Building2, Globe, Target } from "lucide-react";
+import { Building2, Globe, Mail, MapPin, Phone, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLang } from "@/contexts/LangContext";
 
@@ -6,6 +6,11 @@ const icons = [Building2, Globe, Target];
 
 const AboutUs = () => {
   const { t } = useLang();
+  const companyDetails = [
+    { icon: MapPin, label: t.about.addressLabel, value: t.about.address },
+    { icon: Mail, label: t.about.emailLabel, value: "admin@automatiqllc.cloud", href: "mailto:admin@automatiqllc.cloud" },
+    { icon: Phone, label: t.about.phoneLabel, value: "+1 (505) 209-7555", href: "tel:+15052097555" },
+  ];
 
   return (
     <section id="about" className="py-20 px-6 bg-muted/40">
@@ -27,6 +32,35 @@ const AboutUs = () => {
               </article>
             );
           })}
+        </div>
+
+        <div className="border border-border bg-background rounded-lg p-8 md:p-10 space-y-6">
+          <div className="max-w-3xl">
+            <h3 className="text-2xl font-semibold text-foreground mb-2">{t.about.contactTitle}</h3>
+            <p className="text-muted-foreground leading-relaxed">{t.about.contactDescription}</p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            {companyDetails.map((detail) => {
+              const Icon = detail.icon;
+
+              return (
+                <div key={detail.label} className="border border-border rounded-lg bg-card p-5 space-y-3">
+                  <Icon className="w-5 h-5 text-electric" />
+                  <div>
+                    <p className="text-sm text-muted-foreground mb-1">{detail.label}</p>
+                    {detail.href ? (
+                      <a href={detail.href} className="text-foreground hover:text-electric break-words">
+                        {detail.value}
+                      </a>
+                    ) : (
+                      <p className="text-foreground break-words">{detail.value}</p>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         <div className="border border-border bg-background rounded-lg p-8 md:p-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">

@@ -14,7 +14,9 @@ const Hero = () => {
           {t.hero.subtitle}
         </p>
         <a
-          href="#contact"
+          href="https://automatiq-app.lovable.app"
+          target="_blank"
+          rel="noreferrer"
           className="inline-block bg-electric hover:bg-electric-light text-primary-foreground font-semibold px-8 py-3 rounded-lg text-lg"
         >
           {t.hero.cta}
