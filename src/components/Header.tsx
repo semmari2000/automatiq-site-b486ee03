@@ -14,6 +14,7 @@ const Header = () => {
         </Link>
         <div className="flex items-center gap-6">
           <nav className="hidden md:flex gap-6">
+            <a href="#about" className="text-muted hover:text-primary-foreground text-sm">{t.nav.about}</a>
             <a href="#services" className="text-muted hover:text-primary-foreground text-sm">{t.nav.services}</a>
             <a href="#how-it-works" className="text-muted hover:text-primary-foreground text-sm">{t.nav.howItWorks}</a>
             <a href="#contact" className="text-muted hover:text-primary-foreground text-sm">{t.nav.contact}</a>
