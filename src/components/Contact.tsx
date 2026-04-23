@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { useLang } from "@/contexts/LangContext";
 
 const Contact = () => {
@@ -27,6 +27,10 @@ const Contact = () => {
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-electric" />
                 <span className="text-foreground">+1 (505) 209-7555</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-electric mt-0.5 shrink-0" />
+                <span className="text-foreground">8206 Louisiana Blvd Ne, Ste A #9329, Albuquerque, New Mexico 87113 US</span>
               </div>
             </div>
           </div>
