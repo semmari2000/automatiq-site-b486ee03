@@ -213,8 +213,8 @@ const translations = {
     privacy: {
       title: "Politique de confidentialité",
       updated: "Dernière mise à jour : 5 avril 2026",
-      sections: [
-        { title: "1. Informations que nous collectons", content: "AutomatiQ LLC (\"nous\") collecte les informations personnelles que vous fournissez volontairement lors de l'utilisation de nos services, y compris votre nom, adresse e-mail, numéro de téléphone, détails du compte WhatsApp Business et tout message ou donnée traité via notre plateforme." },
+       sections: [
+         { title: "1. Informations que nous collectons", content: "AutomatiQ Cloud LLC (\"nous\") collecte les informations personnelles que vous fournissez volontairement lors de l'utilisation de nos services, y compris votre nom, adresse e-mail, numéro de téléphone, détails du compte WhatsApp Business et tout message ou donnée traité via notre plateforme." },
         { title: "2. Utilisation de vos informations", content: "Nous utilisons les informations collectées pour fournir et améliorer nos services d'automatisation WhatsApp, communiquer avec vous concernant votre compte, traiter les transactions, envoyer des notifications de service et respecter les obligations légales." },
         { title: "3. Services tiers", content: "Nos services s'intègrent avec Meta Platforms, Inc. et l'API WhatsApp Business. En utilisant nos services, vos données peuvent être traitées conformément aux politiques de confidentialité de Meta et WhatsApp." },
         { title: "4. Sécurité des données", content: "Nous mettons en œuvre des mesures de sécurité standard pour protéger vos informations personnelles. Cependant, aucune méthode de transmission ou de stockage électronique n'est sûre à 100%, et nous ne pouvons garantir une sécurité absolue." },
@@ -226,22 +226,22 @@ const translations = {
     terms: {
       title: "Conditions d'utilisation",
       updated: "Dernière mise à jour : 5 avril 2026",
-      sections: [
-        { title: "1. Acceptation des conditions", content: "En accédant ou en utilisant les services fournis par AutomatiQ LLC, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas ces conditions, vous ne pouvez pas utiliser nos services." },
-        { title: "2. Description des services", content: "AutomatiQ LLC fournit des services d'automatisation WhatsApp pour les entreprises e-commerce, y compris les chatbots IA, les notifications de commandes, les confirmations de commandes et l'automatisation du support client via l'API WhatsApp Business." },
+       sections: [
+         { title: "1. Acceptation des conditions", content: "En accédant ou en utilisant les services fournis par AutomatiQ Cloud LLC, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas ces conditions, vous ne pouvez pas utiliser nos services." },
+         { title: "2. Description des services", content: "AutomatiQ Cloud LLC fournit des services d'automatisation WhatsApp pour les entreprises e-commerce, y compris les chatbots IA, les notifications de commandes, les confirmations de commandes et l'automatisation du support client via l'API WhatsApp Business." },
         { title: "3. Responsabilités du client", content: "Vous êtes responsable de la sécurité des identifiants de votre compte WhatsApp Business, du respect des conditions de service de WhatsApp et Meta, de la fourniture d'informations exactes et de l'utilisation du service conformément aux lois applicables." },
         { title: "4. Limitations du service", content: "Nos services dépendent de la disponibilité de l'API WhatsApp Business et de l'infrastructure de Meta. Nous ne garantissons pas un service ininterrompu et ne sommes pas responsables des interruptions ou limitations imposées par des plateformes tierces." },
         { title: "5. Paiement et facturation", content: "Les frais de service sont détaillés dans votre contrat de service. Le paiement est dû selon les termes spécifiés dans votre contrat. Les retards de paiement peuvent entraîner la suspension des services." },
-        { title: "6. Limitation de responsabilité", content: "AutomatiQ LLC ne sera pas responsable des dommages indirects, accessoires, spéciaux ou consécutifs résultant de l'utilisation de nos services, y compris les pertes de profits, la perte de données ou l'interruption d'activité." },
+         { title: "6. Limitation de responsabilité", content: "AutomatiQ Cloud LLC ne sera pas responsable des dommages indirects, accessoires, spéciaux ou consécutifs résultant de l'utilisation de nos services, y compris les pertes de profits, la perte de données ou l'interruption d'activité." },
         { title: "7. Loi applicable", content: "Ces conditions d'utilisation sont régies et interprétées conformément aux lois de la République Algérienne Démocratique et Populaire." },
         { title: "8. Contact", content: "Pour toute question concernant ces conditions, contactez-nous à contact@automatiq.com." },
       ],
     },
-    footer: {
-      rights: "© 2026 AutomatiQ LLC. Tous droits réservés.",
-      privacy: "Politique de confidentialité",
-      terms: "Conditions d'utilisation",
-    },
+     footer: {
+       rights: "© 2026 AutomatiQ Cloud LLC. Tous droits réservés.",
+       privacy: "Politique de confidentialité",
+       terms: "Conditions d'utilisation",
+     },
   },
 } as const;
 
