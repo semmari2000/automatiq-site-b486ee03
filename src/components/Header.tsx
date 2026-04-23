@@ -10,7 +10,7 @@ const Header = () => {
     <header className="bg-secondary py-4 px-6">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="AutomatiQ LLC" className="h-10 rounded" />
+           <img src={logo} alt="AutomatiQ Cloud LLC" className="h-10 rounded" />
         </Link>
         <div className="flex items-center gap-6">
           <nav className="hidden md:flex gap-6">
