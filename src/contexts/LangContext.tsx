@@ -180,7 +180,7 @@ const translations = {
         { title: "À qui cela s'adresse", description: "Nous ciblons les marques e-commerce, les vendeurs en ligne et les entreprises en croissance en Algérie et dans la région MENA qui veulent répondre plus vite, mieux relancer leurs clients et gagner en efficacité." },
       ],
       platformTitle: "Prêt à accéder à la plateforme ?",
-      platformDescription: "Ce site présente notre société et nos services. Pour accéder à la véritable plateforme AutomatiQ, ouvrez l'application et continuez depuis այնտեղ.",
+      platformDescription: "Ce site présente notre société et nos services. Pour accéder à la véritable plateforme AutomatiQ, ouvrez l'application et continuez depuis l'application.",
       platformCta: "Ouvrir la plateforme",
     },
     services: {
