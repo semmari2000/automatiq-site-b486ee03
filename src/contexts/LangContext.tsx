@@ -9,11 +9,11 @@ const translations = {
       title1: "Automate Your WhatsApp.",
       title2: "Grow Your Business.",
       subtitle: "We help e-commerce businesses in Algeria and the MENA region automate customer communication on WhatsApp — so you can sell more, respond faster, and scale effortlessly.",
-      cta: "Get Started",
+       cta: "Open Platform",
     },
     about: {
       title: "About Us",
-      intro: "AutomatiQ Cloud LLC is a WhatsApp automation company that helps businesses centralize conversations, automate repetitive customer interactions, and operate faster with a dedicated platform and managed implementation.",
+      intro: "AutomatiQ Cloud LLC is a WhatsApp automation service that helps e-commerce businesses centralize conversations, automate repetitive customer interactions, and operate faster with a dedicated platform and managed implementation.",
       items: [
         { title: "What we are", description: "A specialized automation partner focused on WhatsApp-first customer operations, with tools and workflows designed for modern sales and support teams." },
         { title: "What we provide", description: "We provide chatbot setup, order notifications, confirmation flows, support automation, and access to our platform so businesses can manage communication at scale." },
