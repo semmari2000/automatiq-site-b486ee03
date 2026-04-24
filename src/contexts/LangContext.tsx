@@ -15,7 +15,7 @@ const translations = {
       title: "About Us",
       intro: "AutomatiQ Cloud LLC is a WhatsApp automation service that helps e-commerce businesses centralize conversations, automate repetitive customer interactions, and operate faster with a dedicated platform and managed implementation.",
       items: [
-        { title: "What we are", description: "A specialized automation partner focused on WhatsApp-first customer operations, with tools and workflows designed for modern sales and support teams." },
+        { title: "Who we are", description: "A specialized automation partner focused on WhatsApp-first customer operations, with tools and workflows designed for modern sales and support teams." },
         { title: "What we provide", description: "We provide chatbot setup, order notifications, confirmation flows, support automation, and access to our platform so e-commerce teams can manage communication at scale." },
         { title: "Who we target", description: "We serve e-commerce brands, online sellers, and growing businesses in Algeria and across the MENA region that want faster replies, better customer follow-up, and more efficient operations." },
       ],
