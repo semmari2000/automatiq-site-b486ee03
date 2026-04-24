@@ -15,7 +15,9 @@ const Terms = () => {
           {t.terms.sections.map((section, i) => (
             <div key={i}>
               <h2 className="text-xl font-semibold text-foreground mt-8 mb-3">{section.title}</h2>
-              <p className="text-muted-foreground mb-4">{section.content}</p>
+              {section.content.split("\n\n").map((para, j) => (
+                <p key={j} className="text-muted-foreground mb-4 whitespace-pre-line">{para}</p>
+              ))}
             </div>
           ))}
         </div>
