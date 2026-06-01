@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, Facebook, Instagram } from "lucide-react";
 import { useLang } from "@/contexts/LangContext";
 
 const Contact = () => {
@@ -31,6 +31,16 @@ const Contact = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-electric mt-0.5 shrink-0" />
                 <span className="text-foreground">8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113</span>
+              </div>
+              <div className="flex flex-wrap gap-3 pt-2">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-electric hover:bg-electric-light text-primary-foreground font-semibold px-4 py-2 rounded-lg transition-colors">
+                  <Facebook className="w-4 h-4" />
+                  AUTOMATIQ CLOUD LLC
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-electric hover:bg-electric-light text-primary-foreground font-semibold px-4 py-2 rounded-lg transition-colors">
+                  <Instagram className="w-4 h-4" />
+                  AUTOMATIQ CLOUD LLC
+                </a>
               </div>
             </div>
           </div>
