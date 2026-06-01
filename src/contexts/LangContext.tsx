@@ -72,7 +72,7 @@ const translations = {
         { title: "10. Cookies & Tracking", content: "Our web platform uses essential cookies for authentication and session management. We do not use advertising or tracking cookies. Analytics may be collected in aggregate, anonymized form to improve platform performance." },
         { title: "11. Children's Privacy", content: "Our services are not directed at individuals under the age of 18. We do not knowingly collect data from minors." },
         { title: "12. Changes to This Policy", content: "We may update this Privacy Policy from time to time. We will notify registered clients of material changes via email. Continued use of our services after notification constitutes acceptance of the updated policy." },
-        { title: "13. Contact", content: "For privacy-related inquiries or to exercise your rights, contact us at:\n\nEmail: admin@automatiqllc.cloud\nWebsite: site.automatiqllc.cloud" },
+        { title: "13. Contact", content: "For privacy-related inquiries or to exercise your rights, contact us at:\n\nEmail: admin@automatiqllc.cloud\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
     terms: {
@@ -91,7 +91,7 @@ const translations = {
         { title: "10. Termination", content: "Either party may terminate the service relationship with 7 days written notice. AutomatiQ reserves the right to immediately suspend or terminate access in cases of policy violations, abusive behavior, or non-payment." },
         { title: "11. Limitation of Liability", content: "To the maximum extent permitted by law, AUTOMATIQ CLOUD LLC shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of our services, including but not limited to lost profits, data loss, or business interruption." },
         { title: "12. Changes to Terms", content: "We reserve the right to modify these Terms at any time. Continued use of our services following notification of changes constitutes acceptance of the revised Terms." },
-        { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nWebsite: site.automatiqllc.cloud\nBusiness phone number: +1 (505) 209-7555" },
+        { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
      footer: {
@@ -169,7 +169,7 @@ const translations = {
         { title: "10. Cookies & Tracking", content: "Our web platform uses essential cookies for authentication and session management. We do not use advertising or tracking cookies. Analytics may be collected in aggregate, anonymized form to improve platform performance." },
         { title: "11. Children's Privacy", content: "Our services are not directed at individuals under the age of 18. We do not knowingly collect data from minors." },
         { title: "12. Changes to This Policy", content: "We may update this Privacy Policy from time to time. We will notify registered clients of material changes via email. Continued use of our services after notification constitutes acceptance of the updated policy." },
-        { title: "13. Contact", content: "For privacy-related inquiries or to exercise your rights, contact us at:\n\nEmail: admin@automatiqllc.cloud\nWebsite: site.automatiqllc.cloud" },
+        { title: "13. Contact", content: "For privacy-related inquiries or to exercise your rights, contact us at:\n\nEmail: admin@automatiqllc.cloud\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
     terms: {
@@ -188,7 +188,7 @@ const translations = {
         { title: "10. Termination", content: "Either party may terminate the service relationship with 7 days written notice. AutomatiQ reserves the right to immediately suspend or terminate access in cases of policy violations, abusive behavior, or non-payment." },
         { title: "11. Limitation of Liability", content: "To the maximum extent permitted by law, AUTOMATIQ CLOUD LLC shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of our services, including but not limited to lost profits, data loss, or business interruption." },
         { title: "12. Changes to Terms", content: "We reserve the right to modify these Terms at any time. Continued use of our services following notification of changes constitutes acceptance of the revised Terms." },
-        { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nWebsite: site.automatiqllc.cloud\nBusiness phone number: +1 (505) 209-7555" },
+        { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
      footer: {
@@ -266,7 +266,7 @@ const translations = {
         { title: "10. Cookies & Tracking", content: "Our web platform uses essential cookies for authentication and session management. We do not use advertising or tracking cookies. Analytics may be collected in aggregate, anonymized form to improve platform performance." },
         { title: "11. Children's Privacy", content: "Our services are not directed at individuals under the age of 18. We do not knowingly collect data from minors." },
         { title: "12. Changes to This Policy", content: "We may update this Privacy Policy from time to time. We will notify registered clients of material changes via email. Continued use of our services after notification constitutes acceptance of the updated policy." },
-        { title: "13. Contact", content: "For privacy-related inquiries or to exercise your rights, contact us at:\n\nEmail: admin@automatiqllc.cloud\nWebsite: site.automatiqllc.cloud" },
+        { title: "13. Contact", content: "For privacy-related inquiries or to exercise your rights, contact us at:\n\nEmail: admin@automatiqllc.cloud\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
     terms: {
@@ -285,7 +285,7 @@ const translations = {
         { title: "10. Termination", content: "Either party may terminate the service relationship with 7 days written notice. AutomatiQ reserves the right to immediately suspend or terminate access in cases of policy violations, abusive behavior, or non-payment." },
         { title: "11. Limitation of Liability", content: "To the maximum extent permitted by law, AUTOMATIQ CLOUD LLC shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of our services, including but not limited to lost profits, data loss, or business interruption." },
         { title: "12. Changes to Terms", content: "We reserve the right to modify these Terms at any time. Continued use of our services following notification of changes constitutes acceptance of the revised Terms." },
-        { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nWebsite: site.automatiqllc.cloud\nBusiness phone number: +1 (505) 209-7555" },
+        { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
      footer: {
