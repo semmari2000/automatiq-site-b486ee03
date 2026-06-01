@@ -13,14 +13,14 @@ const translations = {
     },
     about: {
       title: "About Us",
-      intro: "AutomatiQ Cloud LLC is a WhatsApp automation service that helps e-commerce businesses centralize conversations, automate repetitive customer interactions, and operate faster with a dedicated platform and managed implementation.",
+      intro: "AUTOMATIQ CLOUD LLC is a WhatsApp automation service that helps e-commerce businesses centralize conversations, automate repetitive customer interactions, and operate faster with a dedicated platform and managed implementation.",
       items: [
         { title: "Who we are", description: "A specialized automation partner focused on WhatsApp-first customer operations, with tools and workflows designed for modern sales and support teams." },
         { title: "What we provide", description: "We provide chatbot setup, order notifications, confirmation flows, support automation, and access to our platform so e-commerce teams can manage communication at scale." },
         { title: "Who we target", description: "We serve e-commerce brands, online sellers, and growing businesses in Algeria and across the MENA region that want faster replies, better customer follow-up, and more efficient operations." },
       ],
       contactTitle: "Business Details",
-      contactDescription: "AutomatiQ Cloud LLC operates as a U.S. company serving e-commerce brands with WhatsApp automation services and platform access.",
+      contactDescription: "AUTOMATIQ CLOUD LLC operates as a U.S. company serving e-commerce brands with WhatsApp automation services and platform access.",
       addressLabel: "Address",
       address: "8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113",
       emailLabel: "Business Email",
@@ -95,7 +95,7 @@ const translations = {
       ],
     },
      footer: {
-       rights: "© 2026 AutomatiQ Cloud LLC. All rights reserved.",
+       rights: "© 2026 AUTOMATIQ CLOUD LLC. All rights reserved.",
        privacy: "Privacy Policy",
        terms: "Terms of Service",
      },
@@ -110,14 +110,14 @@ const translations = {
     },
     about: {
       title: "من نحن",
-      intro: "AutomatiQ Cloud LLC هي خدمة أتمتة واتساب تساعد شركات التجارة الإلكترونية على تنظيم المحادثات، وأتمتة التفاعلات المتكررة مع العملاء، والعمل بكفاءة أعلى عبر منصة مخصصة وتنفيذ مُدار.",
+      intro: "AUTOMATIQ CLOUD LLC هي خدمة أتمتة واتساب تساعد شركات التجارة الإلكترونية على تنظيم المحادثات، وأتمتة التفاعلات المتكررة مع العملاء، والعمل بكفاءة أعلى عبر منصة مخصصة وتنفيذ مُدار.",
       items: [
         { title: "من نحن", description: "نحن شريك متخصص في أتمتة العمليات المعتمدة على واتساب، مع أدوات وسير عمل مصمم لفرق المبيعات والدعم الحديثة." },
         { title: "ماذا نقدم", description: "نوفر إعداد روبوتات المحادثة، وإشعارات الطلبات، وتدفقات تأكيد الطلب، وأتمتة الدعم، بالإضافة إلى الوصول إلى منصتنا لإدارة تواصل فرق التجارة الإلكترونية على نطاق واسع." },
         { title: "من نستهدف", description: "نستهدف علامات التجارة الإلكترونية، والبائعين عبر الإنترنت، والشركات النامية في الجزائر ومنطقة الشرق الأوسط وشمال أفريقيا التي تريد ردوداً أسرع ومتابعة أفضل وكفاءة تشغيلية أعلى." },
       ],
       contactTitle: "بيانات الشركة",
-      contactDescription: "تعمل AutomatiQ Cloud LLC كشركة أمريكية تخدم علامات التجارة الإلكترونية عبر خدمات أتمتة واتساب والوصول إلى المنصة.",
+      contactDescription: "تعمل AUTOMATIQ CLOUD LLC كشركة أمريكية تخدم علامات التجارة الإلكترونية عبر خدمات أتمتة واتساب والوصول إلى المنصة.",
       addressLabel: "العنوان",
       address: "8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113",
       emailLabel: "البريد الإلكتروني",
@@ -192,7 +192,7 @@ const translations = {
       ],
     },
      footer: {
-       rights: "© 2026 AutomatiQ Cloud LLC. جميع الحقوق محفوظة.",
+       rights: "© 2026 AUTOMATIQ CLOUD LLC. جميع الحقوق محفوظة.",
        privacy: "سياسة الخصوصية",
        terms: "شروط الخدمة",
      },
@@ -207,14 +207,14 @@ const translations = {
     },
     about: {
       title: "À propos",
-      intro: "AutomatiQ Cloud LLC est un service d'automatisation WhatsApp qui aide les entreprises e-commerce à centraliser les conversations, automatiser les interactions clients répétitives et fonctionner plus vite grâce à une plateforme dédiée et un accompagnement opérationnel.",
+      intro: "AUTOMATIQ CLOUD LLC est un service d'automatisation WhatsApp qui aide les entreprises e-commerce à centraliser les conversations, automatiser les interactions clients répétitives et fonctionner plus vite grâce à une plateforme dédiée et un accompagnement opérationnel.",
       items: [
         { title: "Qui nous sommes", description: "Un partenaire spécialisé dans les opérations client orientées WhatsApp, avec des outils et des workflows pensés pour les équipes modernes de vente et de support." },
         { title: "Ce que nous proposons", description: "Nous mettons en place des chatbots, des notifications de commande, des flux de confirmation, l'automatisation du support et l'accès à notre plateforme pour aider les équipes e-commerce à gérer la communication à grande échelle." },
         { title: "À qui cela s'adresse", description: "Nous ciblons les marques e-commerce, les vendeurs en ligne et les entreprises en croissance en Algérie et dans la région MENA qui veulent répondre plus vite, mieux relancer leurs clients et gagner en efficacité." },
       ],
       contactTitle: "Informations de l'entreprise",
-      contactDescription: "AutomatiQ Cloud LLC opère comme une société américaine au service des marques e-commerce avec des services d'automatisation WhatsApp et l'accès à la plateforme.",
+      contactDescription: "AUTOMATIQ CLOUD LLC opère comme une société américaine au service des marques e-commerce avec des services d'automatisation WhatsApp et l'accès à la plateforme.",
       addressLabel: "Adresse",
       address: "8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113",
       emailLabel: "Email professionnel",
@@ -289,7 +289,7 @@ const translations = {
       ],
     },
      footer: {
-       rights: "© 2026 AutomatiQ Cloud LLC. Tous droits réservés.",
+       rights: "© 2026 AUTOMATIQ CLOUD LLC. Tous droits réservés.",
        privacy: "Politique de confidentialité",
        terms: "Conditions d'utilisation",
      },
