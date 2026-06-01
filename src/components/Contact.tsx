@@ -30,7 +30,7 @@ const Contact = () => {
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-electric mt-0.5 shrink-0" />
-                <span className="text-foreground">8206 Louisiana Blvd Ne, Ste A #9329, Albuquerque, New Mexico 87113 US</span>
+                <span className="text-foreground">8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113</span>
               </div>
             </div>
           </div>
