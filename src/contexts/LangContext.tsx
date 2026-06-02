@@ -192,11 +192,12 @@ const translations = {
         { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
-     footer: {
-       rights: "© 2026 AUTOMATIQ CLOUD LLC. جميع الحقوق محفوظة.",
-       privacy: "سياسة الخصوصية",
-       terms: "شروط الخدمة",
-     },
+    footer: {
+      rights: "© 2026 AUTOMATIQ CLOUD LLC. جميع الحقوق محفوظة.",
+      privacy: "سياسة الخصوصية",
+      terms: "شروط الخدمة",
+      address: "8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113",
+    },
   },
   fr: {
     nav: { about: "À propos", services: "Services", howItWorks: "Comment ça marche", contact: "Contact" },
@@ -289,11 +290,12 @@ const translations = {
         { title: "13. Contact", content: "For questions regarding these Terms, contact us at: admin@automatiqllc.cloud\n\nPhone: +1 (505) 209-7555\nAddress: 8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113\nWebsite: site.automatiqllc.cloud" },
       ],
     },
-     footer: {
-       rights: "© 2026 AUTOMATIQ CLOUD LLC. Tous droits réservés.",
-       privacy: "Politique de confidentialité",
-       terms: "Conditions d'utilisation",
-     },
+    footer: {
+      rights: "© 2026 AUTOMATIQ CLOUD LLC. Tous droits réservés.",
+      privacy: "Politique de confidentialité",
+      terms: "Conditions d'utilisation",
+      address: "8206 LOUISIANA BLVD NE, STE A #9329, ALBUQUERQUE, NM 87113",
+    },
   },
 } as const;
 
