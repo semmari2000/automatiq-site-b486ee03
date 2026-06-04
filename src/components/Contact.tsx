@@ -6,10 +6,29 @@ const Contact = () => {
   const { t } = useLang();
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert(t.contact.success);
-    setFormData({ name: "", email: "", message: "" });
+    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) return;
+    setSubmitting(true);
+    try {
+      const res = await fetch(
+        "https://automatiq-n8n.dab5ak.easypanel.host/webhook/eddca987-8cb2-409c-8eed-ab5fdf571290",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        }
+      );
+      if (!res.ok) throw new Error("Request failed");
+      alert(t.contact.success);
+      setFormData({ name: "", email: "", message: "" });
+    } catch {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -35,10 +54,10 @@ const Contact = () => {
             </div>
           </div>
           <form onSubmit={handleSubmit} className="space-y-4">
-            <input type="text" placeholder={t.contact.name} required value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-            <input type="email" placeholder={t.contact.email} required value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-            <textarea placeholder={t.contact.message} required rows={4} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none" />
-            <button type="submit" className="w-full bg-electric hover:bg-electric-light text-primary-foreground font-semibold py-3 rounded-lg">{t.contact.send}</button>
+            <input type="text" placeholder={t.contact.name} required minLength={1} maxLength={100} value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
+            <input type="email" placeholder={t.contact.email} required maxLength={255} value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
+            <textarea placeholder={t.contact.message} required minLength={1} maxLength={2000} rows={4} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none" />
+            <button type="submit" disabled={submitting} className="w-full bg-electric hover:bg-electric-light text-primary-foreground font-semibold py-3 rounded-lg disabled:opacity-60">{submitting ? "..." : t.contact.send}</button>
           </form>
         </div>
       </div>
