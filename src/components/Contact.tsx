@@ -13,15 +13,15 @@ const Contact = () => {
     if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) return;
     setSubmitting(true);
     try {
-      const res = await fetch(
+      await fetch(
         "https://automatiq-n8n.dab5ak.easypanel.host/webhook/eddca987-8cb2-409c-8eed-ab5fdf571290",
         {
           method: "POST",
+          mode: "no-cors",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(formData),
         }
       );
-      if (!res.ok) throw new Error("Request failed");
       alert(t.contact.success);
       setFormData({ name: "", email: "", message: "" });
     } catch {
