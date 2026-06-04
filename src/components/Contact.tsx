@@ -54,10 +54,10 @@ const Contact = () => {
             </div>
           </div>
           <form onSubmit={handleSubmit} className="space-y-4">
-            <input type="text" placeholder={t.contact.name} required value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-            <input type="email" placeholder={t.contact.email} required value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-            <textarea placeholder={t.contact.message} required rows={4} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none" />
-            <button type="submit" className="w-full bg-electric hover:bg-electric-light text-primary-foreground font-semibold py-3 rounded-lg">{t.contact.send}</button>
+            <input type="text" placeholder={t.contact.name} required minLength={1} maxLength={100} value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
+            <input type="email" placeholder={t.contact.email} required maxLength={255} value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
+            <textarea placeholder={t.contact.message} required minLength={1} maxLength={2000} rows={4} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none" />
+            <button type="submit" disabled={submitting} className="w-full bg-electric hover:bg-electric-light text-primary-foreground font-semibold py-3 rounded-lg disabled:opacity-60">{submitting ? "..." : t.contact.send}</button>
           </form>
         </div>
       </div>
