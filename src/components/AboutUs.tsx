@@ -70,7 +70,7 @@ const AboutUs = () => {
           </div>
 
           <Button asChild size="lg" className="w-full md:w-auto">
-            <a href="https://automatiq-app.lovable.app" target="_blank" rel="noreferrer">
+            <a href="https://app.automatiqllc.cloud" target="_blank" rel="noreferrer">
               {t.about.platformCta}
             </a>
           </Button>
