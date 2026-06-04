@@ -6,10 +6,29 @@ const Contact = () => {
   const { t } = useLang();
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert(t.contact.success);
-    setFormData({ name: "", email: "", message: "" });
+    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) return;
+    setSubmitting(true);
+    try {
+      const res = await fetch(
+        "https://automatiq-n8n.dab5ak.easypanel.host/webhook/eddca987-8cb2-409c-8eed-ab5fdf571290",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        }
+      );
+      if (!res.ok) throw new Error("Request failed");
+      alert(t.contact.success);
+      setFormData({ name: "", email: "", message: "" });
+    } catch {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
